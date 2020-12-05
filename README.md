@@ -39,6 +39,7 @@ Model training code and pre-trained weights are provided by **Soumik** through [
 
 <p align="center">
   <img src="https://i.ibb.co/xMF9dN8/Inference-Latency-ms.png" width=600>
+  <small>Device used: Pixel 4</small>
 </p>
 
 <p align="center">
