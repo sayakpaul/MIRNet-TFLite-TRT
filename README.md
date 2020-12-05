@@ -37,4 +37,10 @@ Model training code and pre-trained weights are provided by **Soumik** through [
 
 ## Benchmarking
 
-TODO
+<p align="center">
+  <img src="https://i.ibb.co/xMF9dN8/Inference-Latency-ms.png">
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co/2PYMns5/Model-Size-MB.png">
+</p>
