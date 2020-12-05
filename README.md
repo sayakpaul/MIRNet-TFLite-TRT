@@ -27,11 +27,13 @@ Model training code and pre-trained weights are provided by **Soumik** through [
 
 * `MIRNet_TFLite.ipynb`: Shows the model conversion and inference processes. Models converted in this notebook support dynamic shaped inputs.  
 * `MIRNet_TFLite_Fixed_Shape.ipynb`: Shows the model conversion and inference processes. Models converted in this notebook only support fixed shaped inputs. 
+* `Add_Metadata.ipynb`: Adds [metadata](https://www.tensorflow.org/lite/convert/metadata) to TensorFlow Lite models. Metadata makes it easier for mobile developers to integrate the TensorFlow Lite models in their applications. 
 
 ## TensorFlow Lite models
 
 * [Dynamic shape](https://github.com/sayakpaul/MIRNet-TFLite/releases/download/v0.1.0/dynamic_shape.zip) (contains dynamic-range and fp16 quantized models)
 * [Fixed shape](https://github.com/sayakpaul/MIRNet-TFLite/releases/download/v0.1.0/fixed_shape.zip) (contains dynamic-range, integer, and fp16 quantized models)
+* [Fixed shape metadata-populated models](https://github.com/sayakpaul/MIRNet-TFLite/releases/download/v0.2.0/model_with_metadata.tar.gz)
 
 ## Benchmarking
 
