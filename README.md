@@ -14,13 +14,13 @@ Model training code and pre-trained weights are provided by **Soumik** through [
 **TensorFlow Lite model (dynamic-range quantized)**
 
 <p align="center">
-![](https://i.ibb.co/MswgSSg/image.png)
+<img src="https://i.ibb.co/MswgSSg/image.png"></img>
 </p>
   
 **Original model**
 
 <p align="center">
-![](https://i.ibb.co/LJVSG01/image.png)
+<img src="https://i.ibb.co/LJVSG01/image.png"></img>
 </p>
 
 ## About the notebooks
