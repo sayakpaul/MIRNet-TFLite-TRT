@@ -41,8 +41,10 @@ Model training code and pre-trained weights are provided by **Soumik** through [
   <img src="https://i.ibb.co/xMF9dN8/Inference-Latency-ms.png" width=600/>
 </p>
 
+Pixel 4 was used in order to run the benchmarking tests. Also, fixed-shape TensorFlow Lite models (accepting 400x400x3 images) were only benchmarked.  
+
 <p align="center">
-  <img src="https://i.ibb.co/2PYMns5/Model-Size-MB.png" width=600>
+  <img src="https://i.ibb.co/2PYMns5/Model-Size-MB.png" width=600/>
 </p>
 
-Pixel 4 was used in order to run the benchmarking tests. 
+ 
