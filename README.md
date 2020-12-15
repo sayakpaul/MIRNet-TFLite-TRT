@@ -32,8 +32,7 @@ Model training code and pre-trained weights are provided by **Soumik** through [
 ## TensorFlow Lite models
 
 * [Dynamic shape](https://github.com/sayakpaul/MIRNet-TFLite/releases/download/v0.1.0/dynamic_shape.zip) (contains dynamic-range and fp16 quantized models)
-* [Fixed shape](https://github.com/sayakpaul/MIRNet-TFLite/releases/download/v0.1.0/fixed_shape.zip) (contains dynamic-range, integer, and fp16 quantized models)
-* [Fixed shape metadata-populated models](https://github.com/sayakpaul/MIRNet-TFLite/releases/download/v0.2.0/model_with_metadata.tar.gz)
+* [Fixed shape metadata-populated models on TensorFlow Hub](https://tfhub.dev/sayakpaul/lite-model/mirnet-fixed/dr/1)
 
 ## Benchmarking
 
