@@ -27,6 +27,7 @@ Model training code and pre-trained weights are provided by **Soumik** through [
 
 * `MIRNet_TFLite.ipynb`: Shows the model conversion and inference processes. Models converted in this notebook support dynamic shaped inputs.  
 * `MIRNet_TFLite_Fixed_Shape.ipynb`: Shows the model conversion and inference processes. Models converted in this notebook only support fixed shaped inputs. 
+* `MIRNet_TRT.ipynb`: Shows the model conversion process with TensorRT as well as the inference. Recommended if you would run inference with an NVIDIA GPU-enabled environment.
 * `Add_Metadata.ipynb`: Adds [metadata](https://www.tensorflow.org/lite/convert/metadata) to TensorFlow Lite models. Metadata makes it easier for mobile developers to integrate the TensorFlow Lite models in their applications. 
 
 ## TensorFlow Lite models
@@ -46,4 +47,6 @@ Pixel 4 was used in order to run the benchmarking tests. Also, fixed-shape Tenso
   <img src="https://i.ibb.co/2PYMns5/Model-Size-MB.png" width=600/>
 </p>
 
+## Notes
+If you would run inference with an NVIDIA GPU-enabled environment then please follow along with this notebook - [`MIRNet_TRT.ipynb`](https://github.com/sayakpaul/MIRNet-TFLite/blob/main/MIRNet_TRT.ipynb). If you use the TensorRT optimized model (as shown in that notebook) with an NVIDIA GPU-enabled environment the inference latency greatly improves (~0.6 seconds on a Tesla T4).
  
